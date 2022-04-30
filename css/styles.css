@@ -1,0 +1,148 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: "Monserrat-bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    
+}
+.nav-item{
+    padding: 1rem;
+}
+.container-fluid{
+    padding:3% 15% ;
+}
+.navbar-brand{
+    font-family: "Urbuntu";
+    font-size: 2.5rem;
+    color:#fff;
+}
+.navbar{
+    padding:0 0 5.5rem;
+}
+.nav-link{
+    font-family: "Monserrat";
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.btn{
+margin: 5% 3% 5% 0%;
+}
+.dog{
+    width: 19.45rem;
+    transform: rotate(31deg);
+    position: absolute;
+    margin-right: 3%;
+}
+/*features*/
+#features{
+    background-color: #fff;
+    padding: 10% 10%;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5% 7%;
+}
+h3{
+    font-family: "monserrate-bold";
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+    font-size: 1.25rem;
+}
+.icon{
+    color: #f8687d;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimoniala*/
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+}
+h2{
+    font-family: "Monsserate-black";
+    font-size: 3rem;
+    font-weight: bolder ;
+    line-height: 1.25;
+    color: #fff;
+}
+.testimonial-img{
+    border-radius: 100%;
+    width: 15%;
+}
+.carousel-item{
+    padding: 5% 10% 7% 10%;
+
+}
+/*press section*/
+#press{
+    text-align: center;
+    background-color:#ff4c68;;
+    
+}
+.press-img{
+  width: 10%;
+    margin:3% 5% 3% 5%;
+
+}
+/*pricing section*/
+#pricing{
+    text-align: center;
+    background-color: #fff;
+}
+.row{
+    padding: 0% 5%;
+}
+.card{
+    text-align: center;
+    
+}
+@media (max-width:1028px) {
+    .dog{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+.price-heading{
+    color: black;
+    font-family: "Monserrate";
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 3% 7%;
+}
+#cta{
+    background-color: #ff4c68 ;
+    padding: 2% 19%;
+    text-align: center;
+
+}
+.cta-text{
+    font-size: 3.56rem;
+    font-weight: bolder;
+    color: #fff;
+    font-family: "Monserrate-Black";
+}
+#footer{
+    text-align: center;
+    background-color: #fff;
+    color: rgb(101, 95, 95);
+    font-size: small;
+    padding: 7% 15%;
+}
+.social-icon{
+    margin: 20px 10px ;
+}
